@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7cb20e78-a88f-4425-a9be-644cf2f368ec}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{00000000-0000-0000-0000-000000000000}</InterpreterId>
+    <InterpreterVersion>0.0</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ecommerce\asgi.py" />
+    <Compile Include="ecommerce\settings.py" />
+    <Compile Include="ecommerce\urls.py" />
+    <Compile Include="ecommerce\views.py" />
+    <Compile Include="ecommerce\wsgi.py" />
+    <Compile Include="ecommerce\__init__.py" />
+    <Compile Include="manage.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ecommerce\static\css\bootstrap.css" />
+    <Content Include="ecommerce\static\css\responsive.css" />
+    <Content Include="ecommerce\static\css\ui.css" />
+    <Content Include="ecommerce\static\fonts\fontawesome\css\all.css" />
+    <Content Include="ecommerce\static\fonts\fontawesome\css\all.min.css" />
+    <Content Include="ecommerce\static\fonts\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="ecommerce\static\fonts\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="ecommerce\static\fonts\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="ecommerce\static\fonts\roboto\font-min.css" />
+    <Content Include="ecommerce\static\fonts\roboto\font.css" />
+    <Content Include="ecommerce\static\images\avatars\avatar1.jpg" />
+    <Content Include="ecommerce\static\images\avatars\avatar2.jpg" />
+    <Content Include="ecommerce\static\images\avatars\avatar3.jpg" />
+    <Content Include="ecommerce\static\images\banners\1.jpg" />
+    <Content Include="ecommerce\static\images\favicon.ico" />
+    <Content Include="ecommerce\static\images\icons\flag-in.png" />
+    <Content Include="ecommerce\static\images\icons\flag-kr.png" />
+    <Content Include="ecommerce\static\images\icons\flag-tr.png" />
+    <Content Include="ecommerce\static\images\icons\flag-usa.png" />
+    <Content Include="ecommerce\static\images\icons\flag-vt.png" />
+    <Content Include="ecommerce\static\images\icons\pay-american-ex.png" />
+    <Content Include="ecommerce\static\images\icons\pay-bank.png" />
+    <Content Include="ecommerce\static\images\icons\pay-mastercard.png" />
+    <Content Include="ecommerce\static\images\icons\pay-visa-el.png" />
+    <Content Include="ecommerce\static\images\icons\pay-visa.png" />
+    <Content Include="ecommerce\static\images\icons\stars-active.svg" />
+    <Content Include="ecommerce\static\images\icons\starts-disable.svg" />
+    <Content Include="ecommerce\static\images\items\1.jpg" />
+    <Content Include="ecommerce\static\images\items\10.jpg" />
+    <Content Include="ecommerce\static\images\items\11.jpg" />
+    <Content Include="ecommerce\static\images\items\12-1.jpg" />
+    <Content Include="ecommerce\static\images\items\12-2.jpg" />
+    <Content Include="ecommerce\static\images\items\12.jpg" />
+    <Content Include="ecommerce\static\images\items\2.jpg" />
+    <Content Include="ecommerce\static\images\items\3.jpg" />
+    <Content Include="ecommerce\static\images\items\4.jpg" />
+    <Content Include="ecommerce\static\images\items\5.jpg" />
+    <Content Include="ecommerce\static\images\items\6.jpg" />
+    <Content Include="ecommerce\static\images\items\7.jpg" />
+    <Content Include="ecommerce\static\images\items\8.jpg" />
+    <Content Include="ecommerce\static\images\items\9.jpg" />
+    <Content Include="ecommerce\static\images\logo.png" />
+    <Content Include="ecommerce\static\images\misc\appstore.png" />
+    <Content Include="ecommerce\static\images\misc\btn-paypal.png" />
+    <Content Include="ecommerce\static\images\misc\cash.jpg" />
+    <Content Include="ecommerce\static\images\misc\map.jpg" />
+    <Content Include="ecommerce\static\images\misc\payment-bank.png" />
+    <Content Include="ecommerce\static\images\misc\payment-card.png" />
+    <Content Include="ecommerce\static\images\misc\payment-paypal.png" />
+    <Content Include="ecommerce\static\images\misc\payments.png" />
+    <Content Include="ecommerce\static\images\misc\playmarket.png" />
+    <Content Include="ecommerce\static\js\bootstrap.bundle.min.js" />
+    <Content Include="ecommerce\static\js\jquery-2.0.0.min.js" />
+    <Content Include="ecommerce\static\js\script.js" />
+    <Content Include="static\admin\css\autocomplete.css" />
+    <Content Include="static\admin\css\base.css" />
+    <Content Include="static\admin\css\changelists.css" />
+    <Content Include="static\admin\css\dashboard.css" />
+    <Content Include="static\admin\css\fonts.css" />
+    <Content Include="static\admin\css\forms.css" />
+    <Content Include="static\admin\css\login.css" />
+    <Content Include="static\admin\css\nav_sidebar.css" />
+    <Content Include="static\admin\css\responsive.css" />
+    <Content Include="static\admin\css\responsive_rtl.css" />
+    <Content Include="static\admin\css\rtl.css" />
+    <Content Include="static\admin\css\vendor\select2\select2.css" />
+    <Content Include="static\admin\css\vendor\select2\select2.min.css" />
+    <Content Include="static\admin\css\widgets.css" />
+    <Content Include="static\admin\fonts\LICENSE.txt" />
+    <Content Include="static\admin\fonts\README.txt" />
+    <Content Include="static\admin\img\calendar-icons.svg" />
+    <Content Include="static\admin\img\gis\move_vertex_off.svg" />
+    <Content Include="static\admin\img\gis\move_vertex_on.svg" />
+    <Content Include="static\admin\img\icon-addlink.svg" />
+    <Content Include="static\admin\img\icon-alert.svg" />
+    <Content Include="static\admin\img\icon-calendar.svg" />
+    <Content Include="static\admin\img\icon-changelink.svg" />
+    <Content Include="static\admin\img\icon-clock.svg" />
+    <Content Include="static\admin\img\icon-deletelink.svg" />
+    <Content Include="static\admin\img\icon-no.svg" />
+    <Content Include="static\admin\img\icon-unknown-alt.svg" />
+    <Content Include="static\admin\img\icon-unknown.svg" />
+    <Content Include="static\admin\img\icon-viewlink.svg" />
+    <Content Include="static\admin\img\icon-yes.svg" />
+    <Content Include="static\admin\img\inline-delete.svg" />
+    <Content Include="static\admin\img\README.txt" />
+    <Content Include="static\admin\img\search.svg" />
+    <Content Include="static\admin\img\selector-icons.svg" />
+    <Content Include="static\admin\img\sorting-icons.svg" />
+    <Content Include="static\admin\img\tooltag-add.svg" />
+    <Content Include="static\admin\img\tooltag-arrowright.svg" />
+    <Content Include="static\admin\js\actions.js" />
+    <Content Include="static\admin\js\actions.min.js" />
+    <Content Include="static\admin\js\admin\DateTimeShortcuts.js" />
+    <Content Include="static\admin\js\admin\RelatedObjectLookups.js" />
+    <Content Include="static\admin\js\autocomplete.js" />
+    <Content Include="static\admin\js\calendar.js" />
+    <Content Include="static\admin\js\cancel.js" />
+    <Content Include="static\admin\js\change_form.js" />
+    <Content Include="static\admin\js\collapse.js" />
+    <Content Include="static\admin\js\collapse.min.js" />
+    <Content Include="static\admin\js\core.js" />
+    <Content Include="static\admin\js\inlines.js" />
+    <Content Include="static\admin\js\inlines.min.js" />
+    <Content Include="static\admin\js\jquery.init.js" />
+    <Content Include="static\admin\js\nav_sidebar.js" />
+    <Content Include="static\admin\js\popup_response.js" />
+    <Content Include="static\admin\js\prepopulate.js" />
+    <Content Include="static\admin\js\prepopulate.min.js" />
+    <Content Include="static\admin\js\prepopulate_init.js" />
+    <Content Include="static\admin\js\SelectBox.js" />
+    <Content Include="static\admin\js\SelectFilter2.js" />
+    <Content Include="static\admin\js\urlify.js" />
+    <Content Include="static\admin\js\vendor\jquery\jquery.js" />
+    <Content Include="static\admin\js\vendor\jquery\jquery.min.js" />
+    <Content Include="static\admin\js\vendor\jquery\LICENSE.txt" />
+    <Content Include="static\admin\js\vendor\select2\i18n\af.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ar.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\az.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bg.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bn.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bs.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ca.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\cs.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\da.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\de.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\dsb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\el.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\en.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\es.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\et.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\eu.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fa.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\gl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\he.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hsb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hu.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hy.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\id.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\is.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\it.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ja.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ka.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\km.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ko.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\lt.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\lv.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\mk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ms.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\nb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ne.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\nl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ps.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pt-BR.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pt.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ro.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ru.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sq.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sr-Cyrl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sv.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\th.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\tk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\tr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\uk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\vi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\zh-CN.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\zh-TW.js" />
+    <Content Include="static\admin\js\vendor\select2\select2.full.js" />
+    <Content Include="static\admin\js\vendor\select2\select2.full.min.js" />
+    <Content Include="static\admin\js\vendor\xregexp\LICENSE.txt" />
+    <Content Include="static\admin\js\vendor\xregexp\xregexp.js" />
+    <Content Include="static\admin\js\vendor\xregexp\xregexp.min.js" />
+    <Content Include="static\css\bootstrap.css" />
+    <Content Include="static\css\responsive.css" />
+    <Content Include="static\css\ui.css" />
+    <Content Include="static\fonts\fontawesome\css\all.css" />
+    <Content Include="static\fonts\fontawesome\css\all.min.css" />
+    <Content Include="static\fonts\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="static\fonts\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="static\fonts\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="static\fonts\roboto\font-min.css" />
+    <Content Include="static\fonts\roboto\font.css" />
+    <Content Include="static\images\avatars\avatar1.jpg" />
+    <Content Include="static\images\avatars\avatar2.jpg" />
+    <Content Include="static\images\avatars\avatar3.jpg" />
+    <Content Include="static\images\banners\1.jpg" />
+    <Content Include="static\images\favicon.ico" />
+    <Content Include="static\images\icons\flag-in.png" />
+    <Content Include="static\images\icons\flag-kr.png" />
+    <Content Include="static\images\icons\flag-tr.png" />
+    <Content Include="static\images\icons\flag-usa.png" />
+    <Content Include="static\images\icons\flag-vt.png" />
+    <Content Include="static\images\icons\pay-american-ex.png" />
+    <Content Include="static\images\icons\pay-bank.png" />
+    <Content Include="static\images\icons\pay-mastercard.png" />
+    <Content Include="static\images\icons\pay-visa-el.png" />
+    <Content Include="static\images\icons\pay-visa.png" />
+    <Content Include="static\images\icons\stars-active.svg" />
+    <Content Include="static\images\icons\starts-disable.svg" />
+    <Content Include="static\images\items\1.jpg" />
+    <Content Include="static\images\items\10.jpg" />
+    <Content Include="static\images\items\11.jpg" />
+    <Content Include="static\images\items\12-1.jpg" />
+    <Content Include="static\images\items\12-2.jpg" />
+    <Content Include="static\images\items\12.jpg" />
+    <Content Include="static\images\items\2.jpg" />
+    <Content Include="static\images\items\3.jpg" />
+    <Content Include="static\images\items\4.jpg" />
+    <Content Include="static\images\items\5.jpg" />
+    <Content Include="static\images\items\6.jpg" />
+    <Content Include="static\images\items\7.jpg" />
+    <Content Include="static\images\items\8.jpg" />
+    <Content Include="static\images\items\9.jpg" />
+    <Content Include="static\images\logo.png" />
+    <Content Include="static\images\misc\appstore.png" />
+    <Content Include="static\images\misc\btn-paypal.png" />
+    <Content Include="static\images\misc\cash.jpg" />
+    <Content Include="static\images\misc\map.jpg" />
+    <Content Include="static\images\misc\payment-bank.png" />
+    <Content Include="static\images\misc\payment-card.png" />
+    <Content Include="static\images\misc\payment-paypal.png" />
+    <Content Include="static\images\misc\payments.png" />
+    <Content Include="static\images\misc\playmarket.png" />
+    <Content Include="static\js\bootstrap.bundle.min.js" />
+    <Content Include="static\js\jquery-2.0.0.min.js" />
+    <Content Include="static\js\script.js" />
+    <Content Include="templates\home.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ecommerce" />
+    <Folder Include="ecommerce\static\" />
+    <Folder Include="ecommerce\static\css" />
+    <Folder Include="ecommerce\static\fonts\" />
+    <Folder Include="ecommerce\static\fonts\fontawesome\" />
+    <Folder Include="ecommerce\static\fonts\fontawesome\css" />
+    <Folder Include="ecommerce\static\fonts\fontawesome\webfonts" />
+    <Folder Include="ecommerce\static\fonts\roboto" />
+    <Folder Include="ecommerce\static\images" />
+    <Folder Include="ecommerce\static\images\avatars" />
+    <Folder Include="ecommerce\static\images\banners" />
+    <Folder Include="ecommerce\static\images\icons" />
+    <Folder Include="ecommerce\static\images\items" />
+    <Folder Include="ecommerce\static\images\misc" />
+    <Folder Include="ecommerce\static\js" />
+    <Folder Include="static\" />
+    <Folder Include="static\admin\" />
+    <Folder Include="static\admin\css" />
+    <Folder Include="static\admin\css\vendor\" />
+    <Folder Include="static\admin\css\vendor\select2" />
+    <Folder Include="static\admin\fonts" />
+    <Folder Include="static\admin\img" />
+    <Folder Include="static\admin\img\gis" />
+    <Folder Include="static\admin\js" />
+    <Folder Include="static\admin\js\admin" />
+    <Folder Include="static\admin\js\vendor\" />
+    <Folder Include="static\admin\js\vendor\jquery" />
+    <Folder Include="static\admin\js\vendor\select2" />
+    <Folder Include="static\admin\js\vendor\select2\i18n" />
+    <Folder Include="static\admin\js\vendor\xregexp" />
+    <Folder Include="static\css" />
+    <Folder Include="static\fonts\" />
+    <Folder Include="static\fonts\fontawesome\" />
+    <Folder Include="static\fonts\fontawesome\css" />
+    <Folder Include="static\fonts\fontawesome\webfonts" />
+    <Folder Include="static\fonts\roboto" />
+    <Folder Include="static\images" />
+    <Folder Include="static\images\avatars" />
+    <Folder Include="static\images\banners" />
+    <Folder Include="static\images\icons" />
+    <Folder Include="static\images\items" />
+    <Folder Include="static\images\misc" />
+    <Folder Include="static\js" />
+    <Folder Include="templates" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="onlineStoreEnv\">
+      <Id>{3ae2d626-5895-4d2f-9960-da5f4ca32ca9}</Id>
+      <Description>onlineStoreEnv</Description>
+      <BaseInterpreter>{00000000-0000-0000-0000-000000000000}</BaseInterpreter>
+      <InterpreterPath>
+      </InterpreterPath>
+      <WindowsInterpreterPath>
+      </WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <Version>0.0</Version>
+      <Architecture>
+      </Architecture>
+      <PathEnvironmentVariable>
+      </PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
