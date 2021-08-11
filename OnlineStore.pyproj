@@ -264,7 +264,10 @@
     <Content Include="static\js\bootstrap.bundle.min.js" />
     <Content Include="static\js\jquery-2.0.0.min.js" />
     <Content Include="static\js\script.js" />
+    <Content Include="templates\base.html" />
     <Content Include="templates\home.html" />
+    <Content Include="templates\includes\footer.html" />
+    <Content Include="templates\includes\navbar.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ecommerce" />
@@ -311,6 +314,7 @@
     <Folder Include="static\images\misc" />
     <Folder Include="static\js" />
     <Folder Include="templates" />
+    <Folder Include="templates\includes\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="onlineStoreEnv\">
