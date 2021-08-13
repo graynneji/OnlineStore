@@ -47,6 +47,7 @@
     <Compile Include="store\migrations\__init__.py" />
     <Compile Include="store\models.py" />
     <Compile Include="store\tests.py" />
+    <Compile Include="store\urls.py" />
     <Compile Include="store\views.py" />
     <Compile Include="store\__init__.py" />
   </ItemGroup>
@@ -293,6 +294,7 @@
     <Content Include="templates\home.html" />
     <Content Include="templates\includes\footer.html" />
     <Content Include="templates\includes\navbar.html" />
+    <Content Include="templates\store\store.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="accounts\" />
@@ -349,6 +351,7 @@
     <Folder Include="store\migrations\" />
     <Folder Include="templates" />
     <Folder Include="templates\includes\" />
+    <Folder Include="templates\store\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="onlineStoreEnv\">
